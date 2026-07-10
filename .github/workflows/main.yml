@@ -18,10 +18,13 @@ jobs:
     runs-on: ubuntu-latest
 
     env:
-      # Read connection secret
+      # Read connection secrets
       SNOWFLAKE_CONNECTIONS_ADVANCED_DATA_ENGINEERING_SNOWFLAKE_ACCOUNT: ${{ secrets.SNOWFLAKE_ACCOUNT }}
       SNOWFLAKE_CONNECTIONS_ADVANCED_DATA_ENGINEERING_SNOWFLAKE_USER: ${{ secrets.SNOWFLAKE_USER }}
       SNOWFLAKE_CONNECTIONS_ADVANCED_DATA_ENGINEERING_SNOWFLAKE_PRIVATE_KEY_RAW: ${{ secrets.SNOWFLAKE_PRIVATE_KEY }}
+
+      # Tell Snowflake CLI to use Key-Pair Auth instead of a password
+      SNOWFLAKE_CONNECTIONS_ADVANCED_DATA_ENGINEERING_SNOWFLAKE_AUTHENTICATOR: SNOWFLAKE_JWT
 
     steps:
       # Checkout step is necessary to access repository files
