@@ -6,7 +6,7 @@ USE SCHEMA public;
 CREATE OR REPLACE SECRET course_repo.public.github_pat
   TYPE = password
   USERNAME = 'martunis79'
-  PASSWORD = 'secret_token'; -- Insert your GitHub personal access token here
+  PASSWORD = 'secret'; -- Insert your GitHub personal access token here
 
 -- Create the API integration
 CREATE OR REPLACE API INTEGRATION git_api_integration
