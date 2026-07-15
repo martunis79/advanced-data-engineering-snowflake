@@ -6,7 +6,7 @@ USE SCHEMA public;
 CREATE OR REPLACE SECRET course_repo.public.github_pat
   TYPE = password
   USERNAME = 'martunis79'
-  PASSWORD = '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';
+  PASSWORD = 'secret_token'; -- Insert your GitHub personal access token here
 
 -- Create the API integration
 CREATE OR REPLACE API INTEGRATION git_api_integration
@@ -22,4 +22,4 @@ CREATE OR REPLACE GIT REPOSITORY course_repo.public.advanced_data_engineering_sn
   GIT_CREDENTIALS = course_repo.public.github_pat;
 
 -- List the git repositories
-SHOW GIT REPOSITO RIES;
+SHOW GIT REPOSITORIES;
