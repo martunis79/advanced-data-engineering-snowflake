@@ -1,7 +1,0 @@
-alter user ricmartintrial set rsa_public_key = 'MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAhu8eVPxQljZDceNzebAb
-1tMMwJ0HD+vRYkrRBjSlJEh8IfJj0IfsNdGDikvTcwUdwf7tdFHnjvKO8jNcgjVS
-inhRX7SA9X0Bq7ekCX4eSlSH/uiuO+E/1Ztg7GRKyfq4SLJ/xoSj5ipFh9Urv1w7
-vW7K3iJ7czmTv9nfq25QM2K8LVfSa4V60xxC6II1oDpVLA6vput9WHv4HYQSOVgL
-0Ffyy4Hixv+ToPPNVy/7jsb4aNOlpSqk1P9KwT8if+Nphhey+CWj9PS5rCA67gDo
-wTZpquLgsJr1dB2nWkUs/8lDeII1SwKm2TNTNANmD51ejG+hS+PLDLAHqPwu/tgN
-dwIDAQAB';
